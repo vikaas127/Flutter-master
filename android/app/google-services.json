@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "512258771799",
+    "project_id": "bitecope-410be",
+    "storage_bucket": "bitecope-410be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:512258771799:android:4456c2ce1f16cf47dbcc12",
+        "android_client_info": {
+          "package_name": "com.app.inventory_management"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "512258771799-3mdn04f52vft5r74sndu4fp7b67nc4o5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiJfl9CdJd3Uq55ou8VLoQivpF_S3bgSE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "512258771799-3mdn04f52vft5r74sndu4fp7b67nc4o5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

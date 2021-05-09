@@ -1,0 +1,25 @@
+targets:
+  $default:
+    builders:
+      source_gen|combining_builder:
+        options:
+          ignore_for_file:
+            - implicit_dynamic_parameter
+      enum_string_value_generator|enum_string_value:
+        generate_for:
+          - lib/**/*value.dart
+      freezed:
+        generate_for:
+          include:
+            - lib/**/*machine_model.dart # contains `lib/**/*view_model.dart`
+            - lib/**/*value.dart
+            - lib/**/*state.dart
+      json_serializable:
+        generate_for:
+          include:
+            - lib/**/*machine_model.dart # contains `lib/**/*view_model.dart`
+            - lib/**/*value.dart
+            - lib/**/*state.dart
+        options:
+          any_map: true
+          explicit_to_json: true
